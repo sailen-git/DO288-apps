@@ -11,11 +11,10 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-
 cp -Rf /tmp/src/*.html ./
 DATE=$(date +%F)
-echo " Today's Date is $DATE" >> ./info.html
-echo "Amor vincit Omnia " >> ./info.html
+echo "Today's Data is $DATE" >> ./info.html
+echo " Sailen Astra inclinant, sed non obligant" >> ./info.html
 #cp -Rf /tmp/src/*.html ./
 
 #DATE=`date "+%b %d, %Y @ %H:%M %p"`
